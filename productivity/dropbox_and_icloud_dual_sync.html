@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/dist/favicon.ico">
+    <link rel="apple-touch-icon" href="/dist/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/dist/highlight.css">
+    <link rel="stylesheet" type="text/css" href="/dist/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="/dist/gitalk.css">
+    <link rel="stylesheet" type="text/css" href="/dist/main.css">
+    <title>Dropbox & iCloud: Dual Sync | SF-Zhou's Blog</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="title">
+        <h1> Dropbox & iCloud: Dual Sync </h1>
+      </div>
+      <div class="info">
+        <div class="date"> 2018.06.05 </div>
+        <div class="date"> SF-Zhou </div>
+      </div>
+      <div class="markdown">
+        <p>数据安全分两种，一种是 <code>不丢失</code>，一种是 <code>不泄露</code>。物理存储的数据是易丢失的，原因包括设备损坏、丢失，进而也会造成数据泄露。经典案例数不胜数。</p>
+<p>而云存储可以很好地保证数据的不丢失性。不泄露并不在考虑范围之类，如果真的希望不泄露的话，应该自己用多个物理存储器做多份备份。目前可供选择的云存储有很多，包括 Dropbox、iCloud、Google Drive 和 OneDrive，其中不需要科学上网就可以使用的是 iCloud 和 OneDrive。本文推荐的方案是 Dropbox + iCloud。</p>
+<p>Dropbox 的优点：</p>
+<ol>
+<li>两个安全性</li>
+<li>文件版本历史</li>
+</ol>
+<p>iCloud 的优点：</p>
+<ol>
+<li>苹果设备同步</li>
+<li>无需科学上网</li>
+</ol>
+<p>如果手机可以保持科学上网的话，那么使用 Dropbox 的体验就非常棒了。然而科学上网犹有竟时，可以考虑直连网络的方案：iCloud。可以将 Dropbox 中一部分需要与手机端同步的数据放到 iCloud 上。操作也很简单，打开 iCloud Drive，将 Desktop 与 Documents 文件夹的同步打开，最后使用终端执行：</p>
+<pre class="language-shell"><code class="language-shell"><span class="token function">ln</span> -s ~/Documents ~/Dropbox
+</code></pre>
+<p>上面的命令会在 Dropbox 文件夹下创建 Documents 文件夹的软链接，进而 Documents 文件夹中的所有的数据会被同步到 Dropbox 中。软链接并不会占用两倍的物理存储空间。当文件修改时，Dropbox 和 iCloud 会同时做出同步的操作。反之 iCloud 本身不支持软链接，进而没办法把 Dropbox 放到 iCloud 里。</p>
+<p>日常使用中，将需要双备份的数据放到 Documents 文件夹下，将需要安全性的数据放到其他文件夹。而 iPhone 上直接用 <code>文件</code> 应用，可以方便的查看、分享 Documents 文件夹中的文件。</p>
+<p>该方案的优点：</p>
+<ol>
+<li>iPhone / iPad 上可以方便的使用数据</li>
+<li>在普通网络环境下数据正常同步到 iCloud 上</li>
+</ol>
+<p>该方案的缺点：</p>
+<ol>
+<li>iCloud 目前由 <code>云上贵州</code> 运营</li>
+<li>Dropbox 和 iCloud 的免费存储空间都很小</li>
+<li>文件同步时会同时进行 Dropbox 和 iCloud 的同步</li>
+</ol>
+
+      </div>
+      <div id="gitalk-container">
+      </div>
+      <div class="footer">
+        <div class="license">
+          Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license.
+        </div>
+        <div class="copyright">
+          Copyright©2019 SF-Zhou, All Rights Reserved. Powered by <a href="https://pages.github.com/">GitHub Pages</a> and <a href="https://travis-ci.com/SF-Zhou/sf-zhou.github.io">Travis CI</a>.
+        </div>
+      </div>
+    </div>
+    <script src="/dist/katex.min.js"></script>
+    <script src="/dist/gitalk.min.js"></script>
+    <script src="/dist/main.js"></script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-61723712-2', 'auto'); ga('send', 'pageview');
+    </script>
+  </body>
+</html>

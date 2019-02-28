@@ -1,0 +1,271 @@
+[
+  {
+    "title": "[Reading] Hierarchical Navigable Small World graphs",
+    "date": "2019.02.13",
+    "author": "SF-Zhou",
+    "tags": [
+      "Algorithm",
+      "Paper",
+      "ANN"
+    ],
+    "filename": "hierarchical_navigable_small_world",
+    "url_path": "/algorithm/hierarchical_navigable_small_world.html"
+  },
+  {
+    "title": "[Reading] Approximate nearest neighbor algorithm based on navigable small world graphs",
+    "date": "2019.02.12",
+    "author": "SF-Zhou",
+    "tags": [
+      "Algorithm",
+      "Paper",
+      "ANN"
+    ],
+    "filename": "navigable_small_world",
+    "url_path": "/algorithm/navigable_small_world.html"
+  },
+  {
+    "title": "[Reading] Temporal Shift Module for Efficient Video Understanding",
+    "date": "2019.02.11",
+    "author": "SF-Zhou",
+    "tags": [
+      "DeepLearning",
+      "Paper",
+      "Video"
+    ],
+    "filename": "temporal_shift_module",
+    "url_path": "/ml/temporal_shift_module.html"
+  },
+  {
+    "title": "[Reading] Source Code of LevelDB",
+    "date": "2019.01.06",
+    "author": "SF-Zhou",
+    "tags": [
+      "C++",
+      "Source"
+    ],
+    "filename": "source_code_reading_of_leveldb",
+    "url_path": "/programming/source_code_reading_of_leveldb.html"
+  },
+  {
+    "title": "Practices of C++ Core Guidelines",
+    "date": "2019.01.02",
+    "author": "SF-Zhou",
+    "tags": [
+      "C++"
+    ],
+    "filename": "practices_of_cpp_core_guidelines",
+    "url_path": "/programming/practices_of_cpp_core_guidelines.html"
+  },
+  {
+    "title": "2019 New Year",
+    "date": "2019.01.01",
+    "author": "SF-Zhou",
+    "tags": [
+      "Life"
+    ],
+    "filename": "2019_new_year",
+    "url_path": "/life/2019_new_year.html"
+  },
+  {
+    "title": "[Reading] Convolutional Networks with Adaptive Inference Graphs",
+    "date": "2018.09.25",
+    "author": "SF-Zhou",
+    "tags": [
+      "DeepLearning",
+      "Paper",
+      "Adaptive"
+    ],
+    "filename": "adaptive_graphs",
+    "url_path": "/ml/adaptive_graphs.html"
+  },
+  {
+    "title": "TensorFlow Lite 与定点量化",
+    "date": "2018.09.10",
+    "author": "SF-Zhou",
+    "tags": [
+      "DeepLearning",
+      "TensorFlow",
+      "Quantization"
+    ],
+    "filename": "tensorflow_lite_and_uint8_quantization",
+    "url_path": "/ml/tensorflow_lite_and_uint8_quantization.html"
+  },
+  {
+    "title": "C++ 中的中文编码",
+    "date": "2018.07.28",
+    "author": "SF-Zhou",
+    "tags": [
+      "UTF-8",
+      "Unicode",
+      "Chinese"
+    ],
+    "filename": "chinese_encoding",
+    "url_path": "/programming/chinese_encoding.html"
+  },
+  {
+    "title": "Android 备用机短信转发",
+    "date": "2018.07.13",
+    "author": "SF-Zhou",
+    "tags": [
+      "SMS",
+      "DingTalk"
+    ],
+    "filename": "android_sms_to_dingtalk",
+    "url_path": "/productivity/android_sms_to_dingtalk.html"
+  },
+  {
+    "title": "台湾游记",
+    "date": "2018.06.16",
+    "author": "SF-Zhou",
+    "tags": [
+      "Tour"
+    ],
+    "filename": "taiwan",
+    "url_path": "/life/tour/taiwan.html"
+  },
+  {
+    "title": "Dropbox & iCloud: Dual Sync",
+    "date": "2018.06.05",
+    "author": "SF-Zhou",
+    "tags": [
+      "Dropbox",
+      "iCloud"
+    ],
+    "filename": "dropbox_and_icloud_dual_sync",
+    "url_path": "/productivity/dropbox_and_icloud_dual_sync.html"
+  },
+  {
+    "title": "《机器学习》西瓜书阅读笔记",
+    "date": "2018.04.23",
+    "author": "SF-Zhou",
+    "tags": [
+      "DeepLearning",
+      "Book"
+    ],
+    "filename": "reading_notes_of_watermelon_book",
+    "url_path": "/ml/reading_notes_of_watermelon_book.html"
+  },
+  {
+    "title": "读书书单",
+    "date": "2018.03.26",
+    "author": "SF-Zhou",
+    "tags": [
+      "Life",
+      "Book"
+    ],
+    "filename": "2017_read_books",
+    "url_path": "/life/2017_read_books.html"
+  },
+  {
+    "title": "Build a Python Package Step by Step",
+    "date": "2018.03.14",
+    "author": "SF-Zhou",
+    "tags": [
+      "Python",
+      "CI"
+    ],
+    "filename": "python_package_dingtalk_robot",
+    "url_path": "/programming/python_package_dingtalk_robot.html"
+  },
+  {
+    "title": "Coursera: Sequence Models",
+    "date": "2018.02.21",
+    "author": "SF-Zhou",
+    "tags": [
+      "DeepLearning",
+      "Coursera",
+      "RNN"
+    ],
+    "filename": "sequence_models",
+    "url_path": "/ml/sequence_models.html"
+  },
+  {
+    "title": "Coursera: Convolutional Neural Networks",
+    "date": "2018.02.19",
+    "author": "SF-Zhou",
+    "tags": [
+      "DeepLearning",
+      "Coursera",
+      "CNN"
+    ],
+    "filename": "convolutional_neural_networks",
+    "url_path": "/ml/convolutional_neural_networks.html"
+  },
+  {
+    "title": "Firefox Quantum 57 降级指南",
+    "date": "2018.01.02",
+    "author": "SF-Zhou",
+    "tags": [
+      "Firefox"
+    ],
+    "filename": "downgrade_guide_of_firefox",
+    "url_path": "/productivity/downgrade_guide_of_firefox.html"
+  },
+  {
+    "title": "解决 MacBook 键盘双击问题",
+    "date": "2017.09.15",
+    "author": "SF-Zhou",
+    "tags": [
+      "MacBook",
+      "Keyboard"
+    ],
+    "filename": "solve_macbook_typing_double",
+    "url_path": "/productivity/solve_macbook_typing_double.html"
+  },
+  {
+    "title": "特征值、特征向量和奇异值分解",
+    "date": "2017.09.15",
+    "author": "SF-Zhou",
+    "tags": [
+      "Mathematics"
+    ],
+    "filename": "eigenvalues_and_eigvectors",
+    "url_path": "/algorithm/eigenvalues_and_eigvectors.html"
+  },
+  {
+    "title": "指数函数 Exp 的拟合",
+    "date": "2017.09.09",
+    "author": "SF-Zhou",
+    "tags": [
+      "Mathematics",
+      "Algorithm"
+    ],
+    "filename": "fitted_exp_function",
+    "url_path": "/algorithm/fitted_exp_function.html"
+  },
+  {
+    "title": "2017 互联网暑期实习应聘小结",
+    "date": "2017.04.28",
+    "author": "SF-Zhou",
+    "tags": [
+      "Life",
+      "Interview",
+      "Internship"
+    ],
+    "filename": "2017_internship_interview",
+    "url_path": "/life/2017_internship_interview.html"
+  },
+  {
+    "title": "泛化的动态规划",
+    "date": "2017.03.24",
+    "author": "SF-Zhou",
+    "tags": [
+      "Algorithm",
+      "C++",
+      "DP"
+    ],
+    "filename": "generic_dp",
+    "url_path": "/algorithm/generic_dp.html"
+  },
+  {
+    "title": "终端下快速找文件、进目录",
+    "date": "2015.02.26",
+    "author": "SF-Zhou",
+    "tags": [
+      "Terminal",
+      "Productivity"
+    ],
+    "filename": "find_file_folder_quickly_in_terminal",
+    "url_path": "/productivity/find_file_folder_quickly_in_terminal.html"
+  }
+]
