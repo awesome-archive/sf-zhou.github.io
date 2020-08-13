@@ -1,15 +1,12 @@
 html {
   font-size: 1.0em;
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 800px) {
     font-size: 1.1em;
-  }
-  @media screen and (min-width: 900px) {
-    font-size: 1.2em;
   }
 }
 
 body {
-  margin: 0 1em 0 1em;
+  margin: 0 1em;
 }
 
 .app {
@@ -17,7 +14,7 @@ body {
   max-width: 40rem;
   min-height: 100vh;
   line-height: 1.6;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   a {
@@ -36,11 +33,7 @@ body {
     h1 {
       margin-top: 0;
       text-align: center;
-      font-size: 2.5rem;
-      @media screen and (max-width: 700px) {
-        font-size: 1.5rem;
-        font-weight: bold;
-      }
+      font-size: 1.5rem;
     }
   }
   .info {
@@ -49,7 +42,7 @@ body {
     .date,
     .author {
       display: inline-block;
-      margin: 0rem 0.25rem;
+      margin: 0 0.25rem;
     }
   }
   .footer {
@@ -67,10 +60,10 @@ body {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .12), 0 0 6px 0 rgba(0, 0, 0, .04);
     margin-bottom: 2rem;
     p {
-      text-indent: 0rem;
+      text-indent: 0;
       display: inline-block;
-      margin-top: 0rem;
-      margin-bottom: 0rem;
+      margin-top: 0;
+      margin-bottom: 0;
     }
   }
   .abstract {
@@ -103,22 +96,19 @@ body {
       border: 1px solid transparent;
       white-space: nowrap;
     }
+    .selected {
+      background-color: #DAE7FE;
+    }
   }
 }
 
 .markdown {
   h2 {
-    font-size: 2rem;
     text-align: center;
-    @media screen and (max-width: 600px) {
-      font-size: 1.1rem;
-    }
+    font-size: 1.1rem;
   }
   h3 {
-    font-size: 1.6rem;
-    @media screen and (max-width: 600px) {
-      font-size: 1.0rem;
-    }
+    font-size: 1.0rem;
   }
   p {
     text-indent: 2rem;
@@ -139,9 +129,9 @@ body {
     padding-left: 3rem;
     p {
       display: inline-block;
-      text-indent: 0rem;
-      margin-left: 0rem;
-      padding-left: 0rem;
+      text-indent: 0;
+      margin-left: 0;
+      padding-left: 0;
     }
   }
   blockquote,
@@ -153,8 +143,8 @@ body {
     }
   }
   blockquote {
-    margin-left: 0rem;
-    margin-right: 0rem;
+    margin-left: 0;
+    margin-right: 0;
     color: darkslategray;
     font-style: italic;
   }
@@ -166,7 +156,15 @@ body {
     border: 1px solid #d1dbe5;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .12), 0 0 6px 0 rgba(0, 0, 0, .04);
   }
-  p {
+  figure {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    figcaption {
+      text-align: center;
+      font-size: 0.8rem;
+    }
+  }
+  p, ol, ul {
     code {
       padding: 0.1rem 0.2rem;
       background-color: rgba(0, 0, 0, .04);
